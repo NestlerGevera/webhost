@@ -1,0 +1,122 @@
+@media screen and (min-width: 1025px) {
+
+    #space-1,
+    #space-2,
+    #space-3 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .welcome-text {
+        font-size: 40px;
+        width: 90%;
+        text-align: center;
+    }
+
+    #products-image {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        max-height: 300px;
+    }
+
+    .main-content {
+        transform: translate(0, -20%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content .main-content-layout .main-content-container .welcome-text {
+        font-size: 40px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 607px) {
+    #euro-safe-area {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .main-content .main-content-layout .main-content-container .welcome-text {
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .main-content .main-content-layout .main-content-container p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .main-content-container {
+        width: 100%;
+        max-width: 400px;
+        display: grid;
+        place-items: center;
+    }
+
+
+    #products-image {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        max-height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .main-content .main-content-layout .main-content-container .welcome-text {
+        font-size: 25px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .main-content .main-content-layout .main-content-container p {
+        width: 50%;
+        text-align: center;
+    }
+
+    .main-content-container {
+        width: 100%;
+        max-width: 400px;
+        display: grid;
+        place-items: center;
+    }
+
+
+    #products-image {
+        width: 100%;
+        max-width: 200px;
+        height: 100%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width: 346px) {
+    #euro-safe-area-1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 346px) {
+    #euro-safe-area-2 {
+        display: none;
+    }
+}
